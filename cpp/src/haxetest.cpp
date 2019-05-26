@@ -1,25 +1,9 @@
 #include <iostream>
 #include "Rectangle.h"
+#include "App.h"
 
-namespace cpp
-{
 
-	template<typename T>
-	class Pointer
-	{
-	public:
-		T *ptr;
-		inline Pointer(const T *inValue) : ptr((T*)inValue) { }
-	};
 
-}
-
-class App_obj{
-public:
-	static int init(int value);
-	static int update(::cpp::Pointer<Rectangle> rect);
-
-};
 
 
 
